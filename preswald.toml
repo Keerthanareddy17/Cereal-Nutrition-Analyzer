@@ -1,0 +1,20 @@
+[project]
+title = "Cereal Nutrition Analyzer"
+version = "0.1.0"
+port = 8501
+slug = "cereal-nutrition-analyzer"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Cereal Nutrition Analyzer"
+logo = "images/image.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.cereal]
+type = "csv"
+path = "data/cereal.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
